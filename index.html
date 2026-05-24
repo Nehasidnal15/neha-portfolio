@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Professional portfolio of Neha M. Sidnal - MCA Student, Software Developer. Explore my projects, skills, and certifications.">
+  <meta name="author" content="Neha M. Sidnal">
+  <title>Neha M. Sidnal | Portfolio</title>
+
+  <!-- Sourcing Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome CDN Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom Styling Sheets -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ==========================================================================
+       Header & Navigation
+       ========================================================================== -->
+  <header>
+    <div class="navbar">
+      <a href="#home" class="logo">Neha<span>.Sidnal</span></a>
+      <nav class="nav-links">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div style="display: flex; align-items: center; gap: 20px;">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <div class="menu-toggle" id="mobile-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       Hero Section
+       ========================================================================== -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-welcome">WELCOME TO MY PORTFOLIO</div>
+      <h1 class="hero-title">Neha M. Sidnal</h1>
+      <h2 class="hero-subtitle">I'm a MCA Student | Software Developer</h2>
+      <p class="hero-desc">
+        Highly motivated MCA student passionate about designing real-world software products, solving complex
+        programming challenges, and developing smart machine learning systems.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View My Work <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+      </div>
+      <div class="hero-socials">
+        <span class="text-muted" style="font-size: 0.85rem; font-family: var(--font-mono); letter-spacing: 1px;">FIND ME
+          ON</span>
+        <a href="https://linkedin.com/in/nehasidnal" target="_blank" class="hero-social-link" aria-label="LinkedIn"><i
+            class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/Neha-Sidnal" target="_blank" class="hero-social-link" aria-label="GitHub"><i
+            class="fa-brands fa-github"></i></a>
+        <a href="mailto:nehasidnal15.mca@gmail.com" class="hero-social-link" aria-label="Email"><i
+            class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="avatar-wrapper">
+        <div class="avatar-container">
+          <!-- Sourced Generated Avatar -->
+          <img src="assets/images/avatar.jpg" alt="Neha M. Sidnal - Software Developer">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       About Me Section
+       ========================================================================== -->
+  <section id="about" class="reveal">
+    <h2 class="section-title">About Me</h2>
+    <p class="section-subtitle">An overview of my education, achievements, and professional goals.</p>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <h3>Passionate MCA Student & Software Developer</h3>
+        <p>
+          I am currently pursuing my <span class="highlight-text">Master of Computer Applications (MCA)</span> at Chetan
+          Business School, Hubballi. I completed my <span class="highlight-text">Bachelor of Computer
+            Applications (BCA)</span> in 2024 from JSS SMI UG & PG College, Dharwad.
+        </p>
+        <p>
+          I am passionate about software development, web technologies, and emerging technologies such as Artificial
+          Intelligence and Machine Learning. I enjoy building responsive web applications, designing intuitive user
+          interfaces, and solving real-world problems through technology.
+          <br>
+          <br>
+          My goal is to continuously enhance my technical skills, work on innovative projects, and contribute to
+          creating impactful digital solutions that improve user experiences and make a meaningful difference.
+        </p>
+        <div class="about-info-list">
+          <div class="about-info-item glass-panel">
+            <div class="about-info-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="about-info-details">
+              <span class="label">Education</span>
+              <span class="value">MCA (Pursuing) - CBS, Hubballi | BCA (2024) - JSS, Dharwad</span>
+            </div>
+          </div>
+          <div class="about-info-item glass-panel">
+            <div class="about-info-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="about-info-details">
+              <span class="label">Location</span>
+              <span class="value">Hubballi-Dharwad, Karnataka, India</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card glass-panel">
+          <span class="stat-number">3+</span>
+          <span class="stat-label">Projects Built</span>
+        </div>
+        <div class="stat-card glass-panel">
+          <span class="stat-number">3</span>
+          <span class="stat-label">Certifications</span>
+        </div>
+        <div class="stat-card glass-panel">
+          <span class="stat-number">2</span>
+          <span class="stat-label">Hackathons</span>
+        </div>
+        <div class="stat-card glass-panel">
+          <span class="stat-number">1</span>
+          <span class="stat-label">Internship</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Technical Skills Section
+       ========================================================================== -->
+  <section id="skills" class="reveal">
+    <h2 class="section-title">Technical Skills</h2>
+    <p class="section-subtitle">Technologies and tools I use to build my projects.</p>
+
+    <div class="skills-grid">
+      <!-- Languages & Web Card -->
+      <div class="skill-category glass-panel">
+        <div class="skill-cat-header">
+          <div class="skill-cat-icon"><i class="fa-solid fa-code"></i></div>
+          <h3 class="skill-cat-title">Languages & Web</h3>
+        </div>
+        <div class="skill-badges">
+          <span class="skill-badge"><i class="fa-brands fa-python"></i> Python</span>
+          <span class="skill-badge"><i class="fa-solid fa-code"></i> C Language</span>
+          <span class="skill-badge"><i class="fa-brands fa-html5"></i> HTML & CSS</span>
+          <span class="skill-badge"><i class="fa-brands fa-js"></i> JavaScript</span>
+        </div>
+      </div>
+
+      <!-- Databases Section -->
+      <div class="skill-category database glass-panel">
+        <div class="skill-cat-header">
+          <div class="skill-cat-icon"><i class="fa-solid fa-database"></i></div>
+          <h3 class="skill-cat-title">Database Systems</h3>
+        </div>
+        <div class="skill-badges">
+          <span class="skill-badge"><i class="fa-solid fa-database"></i> MySQL</span>
+          <span class="skill-badge"><i class="fa-solid fa-leaf"></i> MongoDB</span>
+          <span class="skill-badge"><i class="fa-solid fa-database"></i> PostgreSQL</span>
+        </div>
+      </div>
+
+      <!-- Tools & Concepts -->
+      <div class="skill-category tools glass-panel">
+        <div class="skill-cat-header">
+          <div class="skill-cat-icon"><i class="fa-solid fa-cubes"></i></div>
+          <h3 class="skill-cat-title">Tools & Concepts</h3>
+        </div>
+        <div class="skill-badges">
+          <span class="skill-badge"><i class="fa-solid fa-layer-group"></i> Full Stack Development</span>
+          <span class="skill-badge"><i class="fa-solid fa-brain"></i> Machine Learning</span>
+          <span class="skill-badge"><i class="fa-brands fa-github"></i> Git & GitHub</span>
+          <span class="skill-badge"><i class="fa-solid fa-terminal"></i> VS Code</span>
+          <span class="skill-badge"><i class="fa-solid fa-book-open"></i> Jupyter Notebook</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Projects Section (With sliders for multiple photos per project)
+       ========================================================================== -->
+  <section id="projects" class="reveal">
+    <h2 class="section-title">My Projects</h2>
+    <p class="section-subtitle">Explore the projects I have designed and developed.</p>
+
+    <!-- Filter Navigation -->
+    <div class="project-filters">
+      <button class="filter-btn active" data-filter="all">All Projects</button>
+      <button class="filter-btn" data-filter="web">Full-Stack Web</button>
+      <button class="filter-btn" data-filter="ml">Machine Learning</button>
+      <button class="filter-btn" data-filter="design">UI/UX Design</button>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- Project 1: Café Management System -->
+      <div class="project-card glass-panel web">
+        <div class="project-slider">
+          <div class="slider-track">
+            <!-- Slide 1: Customer Login -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-qrcode"></i></div>
+                <div class="slide-placeholder-title">QR Customer Entry Flow</div>
+              </div>
+              <img src="assets/images/projects/cafe/1.png" alt="Café Management - Customer Entry Screen"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+            <!-- Slide 2: Food Preference Selection -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-filter"></i></div>
+                <div class="slide-placeholder-title">Dietary Preference Filters</div>
+              </div>
+              <img src="assets/images/projects/cafe/2.png" alt="Café Management - Food Preference Selection"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+            <!-- Slide 3: Menu & Recommendations -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-utensils"></i></div>
+                <div class="slide-placeholder-title">Digital Menu & Smart Recommendations</div>
+              </div>
+              <img src="assets/images/projects/cafe/3.png" alt="Café Management - Customer Menu Screen"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+            <!-- Slide 4: Real-time Order Placed -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-circle-check"></i></div>
+                <div class="slide-placeholder-title">Real-Time Order Confirmation</div>
+              </div>
+              <img src="assets/images/projects/cafe/4.png" alt="Café Management - Order Confirmation Screen"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+            <!-- Slide 5: Admin Login -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-lock"></i></div>
+                <div class="slide-placeholder-title">Secure Admin Portal</div>
+              </div>
+              <img src="assets/images/projects/cafe/5.png" alt="Café Management - Admin Login Screen"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+            <!-- Slide 6: Real-Time Live Orders Board -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-list-check"></i></div>
+                <div class="slide-placeholder-title">Real-Time Live Orders Board</div>
+              </div>
+              <img src="assets/images/projects/cafe/6.png" alt="Café Management - Live Orders Dashboard"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+            <!-- Slide 7: Dynamic Menu Management -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-circle-plus"></i></div>
+                <div class="slide-placeholder-title">Dynamic Menu Management</div>
+              </div>
+              <img src="assets/images/projects/cafe/7.png" alt="Café Management - Menu Editing Modal"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+            <!-- Slide 8: Sales & Popularity Analytics -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-chart-simple"></i></div>
+                <div class="slide-placeholder-title">Sales & Popularity Analytics</div>
+              </div>
+              <img src="assets/images/projects/cafe/8.png" alt="Café Management - Sales Analytics"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+            <!-- Slide 9: Table QR Code Generation -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-print"></i></div>
+                <div class="slide-placeholder-title">Table QR Code Generation</div>
+              </div>
+              <img src="assets/images/projects/cafe/9.png" alt="Café Management - QR Management Screen"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+          </div>
+          <button class="slider-btn prev" aria-label="Previous image"><i class="fa-solid fa-chevron-left"></i></button>
+          <button class="slider-btn next" aria-label="Next image"><i class="fa-solid fa-chevron-right"></i></button>
+          <div class="slider-dots"></div>
+        </div>
+
+        <div class="project-body">
+          <h3 class="project-title">Café Management System</h3>
+          <p class="project-desc">
+            Developed a QR-based café management system that enables customers to access digital menus and place orders
+            through dynamically generated QR codes. Implemented real-time order processing and administrative dashboard
+            functionality to streamline order management and improve operational efficiency.
+          </p>
+          <div class="project-takeaway">
+            <span class="project-takeaway-label">Key Learning</span>
+            <span class="project-takeaway-text">Gained practical experience in requirement analysis, full-stack
+              development, database integration, and real-time data handling.</span>
+          </div>
+          <div class="project-tags">
+            <span class="project-tag">HTML/CSS</span>
+            <span class="project-tag">JavaScript</span>
+            <span class="project-tag">PostgreSQL</span>
+            <span class="project-tag">Node.js Express</span>
+            <span class="project-tag">QR Engine</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Nehasidnal15/cafe_qr.git" target="_blank" class="project-link"><i
+                class="fa-brands fa-github"></i>Source</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2: Soil Detection & Crop Recommendation System -->
+      <div class="project-card glass-panel ml">
+        <div class="project-slider">
+          <div class="slider-track">
+            <!-- Slide 1 -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-seedling"></i></div>
+                <div class="slide-placeholder-title">ML Image Recognition Flow</div>
+              </div>
+              <img src="assets/images/projects/crop/1.png" alt="Soil Detection - Image Upload Screen"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+            <!-- Slide 2 -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-brain"></i></div>
+                <div class="slide-placeholder-title">CNN Model Analytics</div>
+              </div>
+              <img src="assets/images/projects/crop/2.png" alt="Soil Detection - Model Analysis"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+            <!-- Slide 3 -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-list-check"></i></div>
+                <div class="slide-placeholder-title">Crop Recommendation Output</div>
+              </div>
+              <img src="assets/images/projects/crop/3.png" alt="Soil Detection - Crop Suggestion"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+            <!-- Slide 4 -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-chart-line"></i></div>
+                <div class="slide-placeholder-title">Accuracy & Training Graph</div>
+              </div>
+              <img src="assets/images/projects/crop/4.png" alt="Soil Detection - Accuracy Graph"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+          </div>
+          <button class="slider-btn prev" aria-label="Previous image"><i class="fa-solid fa-chevron-left"></i></button>
+          <button class="slider-btn next" aria-label="Next image"><i class="fa-solid fa-chevron-right"></i></button>
+          <div class="slider-dots"></div>
+        </div>
+
+        <div class="project-body">
+          <h3 class="project-title">Soil Detection & Crop Recommendation</h3>
+          <p class="project-desc">
+            Developed a machine learning solution utilizing Convolutional Neural Networks (CNNs) to classify soil types
+            from image inputs and generate crop recommendations. Integrated the prediction model with a Flask-based web
+            interface to provide an intuitive user experience.
+          </p>
+          <div class="project-takeaway">
+            <span class="project-takeaway-label">Key Learning</span>
+            <span class="project-takeaway-text">Strengthened skills in image processing, data preprocessing, model
+              training, and machine learning application development.</span>
+          </div>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">TensorFlow</span>
+            <span class="project-tag">Flask</span>
+            <span class="project-tag">Image Classification</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Nehasidnal15/Machine_Learning.git" target="_blank" class="project-link"><i
+                class="fa-brands fa-github"></i> Source</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3: Smart Medicine Refill Reminder -->
+      <div class="project-card glass-panel web">
+        <div class="project-slider">
+          <div class="slider-track">
+            <!-- Slide 1: MedRefill Admin Login -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-user-shield"></i></div>
+                <div class="slide-placeholder-title">MedRefill Admin Secure Login</div>
+              </div>
+              <img src="assets/images/projects/medicine/1.png" alt="MedRefill Admin - Login Screen"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+            <!-- Slide 2: MedRefill System Dashboard -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-chart-simple"></i></div>
+                <div class="slide-placeholder-title">MedRefill System Dashboard</div>
+              </div>
+              <img src="assets/images/projects/medicine/2.png" alt="MedRefill - Main Dashboard"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+            <!-- Slide 3: Medicine Management & CRUD -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-prescription-bottle-medical"></i></div>
+                <div class="slide-placeholder-title">Medicine Management & CRUD</div>
+              </div>
+              <img src="assets/images/projects/medicine/3.png" alt="MedRefill - Medicine Management Screen"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+            <!-- Slide 4: Customer Records & Prescriptions -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-users-gear"></i></div>
+                <div class="slide-placeholder-title">Customer Records & Prescriptions</div>
+              </div>
+              <img src="assets/images/projects/medicine/4.png" alt="MedRefill - Customer Management Screen"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+            <!-- Slide 5: New Profile Registration -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-user-plus"></i></div>
+                <div class="slide-placeholder-title">New Profile Registration</div>
+              </div>
+              <img src="assets/images/projects/medicine/5.png" alt="MedRefill - Add New Customer Screen"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+          </div>
+          <button class="slider-btn prev" aria-label="Previous image"><i class="fa-solid fa-chevron-left"></i></button>
+          <button class="slider-btn next" aria-label="Next image"><i class="fa-solid fa-chevron-right"></i></button>
+          <div class="slider-dots"></div>
+        </div>
+
+        <div class="project-body">
+          <h3 class="project-title">Smart Medicine Refill Reminder</h3>
+          <p class="project-desc">
+            Designed and developed a medication management application that tracks prescription schedules and provides
+            timely refill reminders. Implemented secure user authentication and comprehensive CRUD functionalities for
+            efficient medication record management.
+          </p>
+          <div class="project-takeaway">
+            <span class="project-takeaway-label">Key Learning</span>
+            <span class="project-takeaway-text">Enhanced expertise in backend development, database management,
+              authentication mechanisms, and application design principles.</span>
+          </div>
+          <div class="project-tags">
+            <span class="project-tag">HTML/CSS</span>
+            <span class="project-tag">JavaScript</span>
+            <span class="project-tag">Authentication</span>
+            <span class="project-tag">CRUD Engine</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Nehasidnal15/medicine-refill-system.git" target="_blank" class="project-link"><i
+                class="fa-brands fa-github"></i> Source</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4: Fitness & Wellness App UI -->
+      <div class="project-card glass-panel design">
+        <div class="project-slider">
+          <div class="slider-track">
+            <!-- Slide 1: Welcome & Sign In -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                <div class="slide-placeholder-title">AuraFit Welcome & Authentication</div>
+              </div>
+              <img src="assets/images/projects/fitness/1.png" alt="AuraFit UI - Welcome & Authentication Screen"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+            <!-- Slide 2: Choose Your Goal -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-bullseye"></i></div>
+                <div class="slide-placeholder-title">Personal Goal Selection</div>
+              </div>
+              <img src="assets/images/projects/fitness/2.png" alt="AuraFit UI - Choose Your Goal Screen"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+            <!-- Slide 3: AuraFit Dashboard -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-chart-line"></i></div>
+                <div class="slide-placeholder-title">Interactive Activity Dashboard</div>
+              </div>
+              <img src="assets/images/projects/fitness/3.png" alt="AuraFit UI - Dashboard Screen"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+            <!-- Slide 4: Workout Planner -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-dumbbell"></i></div>
+                <div class="slide-placeholder-title">Personalized Workout Planner</div>
+              </div>
+              <img src="assets/images/projects/fitness/4.png" alt="AuraFit UI - Workout Planner Screen"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+            <!-- Slide 5: Habit Tracker -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-calendar-check"></i></div>
+                <div class="slide-placeholder-title">Daily Habit Consistency Tracker</div>
+              </div>
+              <img src="assets/images/projects/fitness/5.png" alt="AuraFit UI - Habit Tracker Screen"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+            <!-- Slide 6: Progress & Analytics -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-chart-line"></i></div>
+                <div class="slide-placeholder-title">Progress & Health Analytics</div>
+              </div>
+              <img src="assets/images/projects/fitness/6.png" alt="AuraFit UI - Progress & Analytics Screen"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+            <!-- Slide 7: Profile & Settings -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-user-gear"></i></div>
+                <div class="slide-placeholder-title">User Settings & Preferences</div>
+              </div>
+              <img src="assets/images/projects/fitness/7.png" alt="AuraFit UI - Profile & Settings Screen"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+          </div>
+          <button class="slider-btn prev" aria-label="Previous image"><i class="fa-solid fa-chevron-left"></i></button>
+          <button class="slider-btn next" aria-label="Next image"><i class="fa-solid fa-chevron-right"></i></button>
+          <div class="slider-dots"></div>
+        </div>
+
+        <div class="project-body">
+          <h3 class="project-title">Fitness & Wellness App UI</h3>
+          <p class="project-desc">
+            Designed and prototyped a comprehensive Fitness & Wellness mobile application focused on promoting healthy
+            lifestyle habits. Created intuitive user flows for workout planning, meal recommendations, habit tracking,
+            progress analytics, and wellness content, emphasizing usability, visual consistency, and user engagement.
+          </p>
+          <div class="project-takeaway">
+            <span class="project-takeaway-label">Key Learning</span>
+            <span class="project-takeaway-text">Enhanced skills in UI/UX design principles, wireframing, user journey
+              mapping, responsive layouts, visual hierarchy, and creating user-centered digital experiences.</span>
+          </div>
+          <div class="project-tags">
+            <span class="project-tag">UI/UX Design</span>
+            <span class="project-tag">Wireframing</span>
+            <span class="project-tag">Typography</span>
+            <span class="project-tag">Visual Prototyping</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link"><i class="fa-solid fa-palette"></i> Design Showcase</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 5: Recipe Sharing Web Application -->
+      <div class="project-card glass-panel web">
+        <div class="project-slider">
+          <div class="slider-track">
+            <!-- Slide 1 -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-bowl-food"></i></div>
+                <div class="slide-placeholder-title">Recipe Discovery Home</div>
+              </div>
+              <img src="assets/images/projects/recipe/1.jpg" alt="Recipe App - Feed Page"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+            <!-- Slide 2 -->
+            <div class="slide">
+              <div class="slide-placeholder">
+                <div class="slide-placeholder-icon"><i class="fa-solid fa-camera"></i></div>
+                <div class="slide-placeholder-title">Recipe Creator Studio</div>
+              </div>
+              <img src="assets/images/projects/recipe/2.jpg" alt="Recipe App - Upload Panel"
+                onerror="this.style.display='none';"
+                style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 2;">
+            </div>
+          </div>
+          <button class="slider-btn prev" aria-label="Previous image"><i class="fa-solid fa-chevron-left"></i></button>
+          <button class="slider-btn next" aria-label="Next image"><i class="fa-solid fa-chevron-right"></i></button>
+          <div class="slider-dots"></div>
+        </div>
+
+        <div class="project-body">
+          <h3 class="project-title">Recipe Sharing Web Application</h3>
+          <p class="project-desc">
+            Developed a full-stack recipe-sharing platform that enables users to create accounts, publish recipes,
+            upload cooking images, and engage through comments and interactions. Designed a structured database
+            architecture and implemented efficient data management to support seamless content sharing.
+          </p>
+          <div class="project-takeaway">
+            <span class="project-takeaway-label">Key Learning</span>
+            <span class="project-takeaway-text">Strengthened expertise in relational database design, RESTful
+              architecture, user authentication, file management, and full-stack application development.</span>
+          </div>
+          <div class="project-tags">
+            <span class="project-tag">HTML5/CSS3</span>
+            <span class="project-tag">JavaScript</span>
+            <span class="project-tag">MySQL Backend</span>
+            <span class="project-tag">Interactive UI</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Neha-Sidnal" target="_blank" class="project-link"><i
+                class="fa-brands fa-github"></i> Repository</a>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Certifications & Achievements Section
+       ========================================================================== -->
+  <section id="certificates" class="certifications-section reveal">
+    <h2 class="section-title">Certifications & Timeline</h2>
+    <p class="section-subtitle">Certifications, internships, and hackathons that have expanded my technical
+      capabilities.</p>
+
+    <!-- Visual Certificates Gallery (Opens in elegant Lightbox) -->
+    <div class="certifications-grid">
+
+      <!-- Certificate 1 -->
+      <div class="cert-card glass-panel reveal" data-cert-src="assets/images/certificates/fullstack.png"
+        data-cert-title="Full Stack Web Development - Metvy (Chetan Business School Collaboration)">
+        <div class="cert-visual-container">
+          <div class="slide-placeholder">
+            <div class="slide-placeholder-icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <div class="slide-placeholder-title">Web Development</div>
+          </div>
+          <img src="assets/images/certificates/fullstack.png" alt="Full Stack Web Dev Certification"
+            onerror="this.remove();"
+            style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 2;">
+          <div class="cert-overlay-hover">
+            <span class="cert-overlay-btn"><i class="fa-solid fa-magnifying-glass-plus"></i> View Certificate</span>
+          </div>
+        </div>
+        <span class="cert-badge">Professional Certification</span>
+        <h3 class="cert-title">Full Stack Web Development</h3>
+        <div class="cert-issuer"><i class="fa-solid fa-award"></i> Metvy (CBS Collaboration)</div>
+      </div>
+
+      <!-- Certificate 2 -->
+      <div class="cert-card glass-panel reveal" data-cert-src="assets/images/certificates/ai_ml.jpg"
+        data-cert-title="Artificial Intelligence & Machine Learning - Metvy (Chetan Business School Collaboration)">
+        <div class="cert-visual-container">
+          <div class="slide-placeholder">
+            <div class="slide-placeholder-icon"><i class="fa-solid fa-robot"></i></div>
+            <div class="slide-placeholder-title">AI & Machine Learning</div>
+          </div>
+          <img src="assets/images/certificates/ai_ml.jpg" alt="AI & ML Certification" onerror="this.remove();"
+            style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 2;">
+          <div class="cert-overlay-hover">
+            <span class="cert-overlay-btn"><i class="fa-solid fa-magnifying-glass-plus"></i> View Certificate</span>
+          </div>
+        </div>
+        <span class="cert-badge">Advanced Certification</span>
+        <h3 class="cert-title">Artificial Intelligence & ML</h3>
+        <div class="cert-issuer"><i class="fa-solid fa-award"></i> Metvy (CBS Collaboration)</div>
+      </div>
+
+      <!-- Certificate 3 -->
+      <div class="cert-card glass-panel reveal" data-cert-src="assets/images/certificates/web_design.jpg"
+        data-cert-title="Web Design & Development Internship Certification">
+        <div class="cert-visual-container">
+          <div class="slide-placeholder">
+            <div class="slide-placeholder-icon"><i class="fa-solid fa-compass-drafting"></i></div>
+            <div class="slide-placeholder-title">Web Design Internship</div>
+          </div>
+          <img src="assets/images/certificates/web_design.jpg" alt="Web Design Internship" onerror="this.remove();"
+            style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 2;">
+          <div class="cert-overlay-hover">
+            <span class="cert-overlay-btn"><i class="fa-solid fa-magnifying-glass-plus"></i> View Certificate</span>
+          </div>
+        </div>
+        <span class="cert-badge">Internship Credential</span>
+        <h3 class="cert-title">Web Design & Development</h3>
+        <div class="cert-issuer"><i class="fa-solid fa-award"></i> DharwadHubballiTutors, Dharwad</div>
+      </div>
+
+    </div>
+
+    <!-- Timeline Pathway -->
+    <h3 class="timeline-title">Event & Achievement Timeline</h3>
+    <div class="timeline">
+
+      <!-- Event 1 -->
+      <div class="timeline-item reveal">
+        <div class="timeline-node"></div>
+        <div class="timeline-card glass-panel">
+          <span class="timeline-date">2025</span>
+          <h4>UI MasterLine 2025</h4>
+          <p>Participated in the UI MasterLine competition at Chetan Business School, Hubli, showcasing layout ideas,
+            dynamic interface flows, and visual design heuristics.</p>
+        </div>
+      </div>
+
+      <!-- Event 2 -->
+      <div class="timeline-item reveal">
+        <div class="timeline-node"></div>
+        <div class="timeline-card glass-panel">
+          <span class="timeline-date">2025</span>
+          <h4>HackLite</h4>
+          <p>Actively participated and competed in HackLite at Chetan Business School, Hubli, code-hacking and
+            developing prototype projects under rigorous time limits.</p>
+        </div>
+      </div>
+
+      <!-- Event 3 -->
+      <div class="timeline-item reveal">
+        <div class="timeline-node"></div>
+        <div class="timeline-card glass-panel">
+          <span class="timeline-date">2026</span>
+          <h4>HackLite 2.O</h4>
+          <p>Successfully coded in CBS's initial HackLite 2.O event, learning collaborative agile pipelines and fast
+            prototyping architectures.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Contact Section
+       ========================================================================== -->
+  <section id="contact" class="reveal">
+    <h2 class="section-title">Get In Touch</h2>
+    <p class="section-subtitle">Let's connect and create something great together.</p>
+
+    <div class="contact-grid">
+      <div class="contact-meta">
+        <!-- Phone Box -->
+        <div class="contact-meta-item glass-panel reveal" data-copy="6363343705">
+          <div class="contact-meta-icon"><i class="fa-solid fa-phone"></i></div>
+          <div class="contact-meta-details">
+            <h4>Phone Number</h4>
+            <p>6363343705</p>
+            <a href="tel:6363343705"><i class="fa-solid fa-copy"></i> Click to copy number</a>
+          </div>
+        </div>
+
+        <!-- Email Box -->
+        <div class="contact-meta-item glass-panel reveal" data-copy="nehasidnal15.mca@gmail.com">
+          <div class="contact-meta-icon"><i class="fa-solid fa-envelope"></i></div>
+          <div class="contact-meta-details">
+            <h4>Email Address</h4>
+            <p style="font-size: 0.9rem;">nehasidnal15.mca@gmail.com</p>
+            <a href="mailto:nehasidnal15.mca@gmail.com"><i class="fa-solid fa-copy"></i> Click to copy email</a>
+          </div>
+        </div>
+
+        <!-- Location Box -->
+        <div class="contact-meta-item glass-panel reveal">
+          <div class="contact-meta-icon"><i class="fa-solid fa-earth-americas"></i></div>
+          <div class="contact-meta-details">
+            <h4>Location</h4>
+            <p>Hubballi, Karnataka, India</p>
+            <a href="https://maps.google.com/?q=Hubballi" target="_blank"><i class="fa-solid fa-map-location-dot"></i>
+              View on Maps</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <form id="contact-form" class="contact-form glass-panel reveal">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" class="form-input" placeholder="e.g. John Doe" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" class="form-input" placeholder="e.g. john@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" class="form-input"
+            placeholder="Say hello! Tell me about your project..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary submit-btn">Send Message <i
+            class="fa-solid fa-paper-plane"></i></button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Footer Section
+       ========================================================================== -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-copy">
+        &copy; Neha M. Sidnal.
+
+      </div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       Certificate Lightbox Modal (Fixed Overlay)
+       ========================================================================== -->
+  <div id="cert-lightbox" class="lightbox-modal">
+    <div class="lightbox-content">
+      <button class="lightbox-close-btn" aria-label="Close viewer"><i class="fa-solid fa-xmark"></i></button>
+      <button class="lightbox-nav-btn prev" aria-label="Previous certificate"><i
+          class="fa-solid fa-chevron-left"></i></button>
+      <div class="lightbox-image-container">
+        <img src="" alt="Active Certificate" class="lightbox-image">
+      </div>
+      <button class="lightbox-nav-btn next" aria-label="Next certificate"><i
+          class="fa-solid fa-chevron-right"></i></button>
+      <div class="lightbox-caption">Certificate Title</div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       Clipboard Toast Alert Notification
+       ========================================================================== -->
+  <div id="clipboard-toast" class="toast-notification">
+    <div class="toast-icon"><i class="fa-solid fa-circle-check"></i></div>
+    <div class="toast-message">Copied to clipboard successfully!</div>
+  </div>
+
+  <!-- Sourced JavaScript Main Script -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
