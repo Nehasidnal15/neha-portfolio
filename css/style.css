@@ -497,6 +497,7 @@ header.scrolled {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center 10%;
 }
 
 @keyframes floatAvatar {
@@ -1210,6 +1211,8 @@ header.scrolled {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .contact-meta-item {
